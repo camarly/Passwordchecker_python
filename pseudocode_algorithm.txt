@@ -1,0 +1,99 @@
+Worksheet #1 
+
+Develop a pseudocode algorithm for each of the problems below:
+
+***********************************************************************************************
+1. Create an algorithm that has the following characteristics 
+a. A constant called taxPercent that will store the GCT percentage 
+b. A variable called price that will contain the price of an item entered by the user 
+c. The algorithm should then display the price of the item as well as the amount of tax that is attracted on the item. 
+
+Solution:
+Declare constant taxPercent 
+Declare variable price
+Declare total_itemCost
+Calculate total:
+Multiply price x taxPercent and store it in total_itemCost 
+Display/print price, taxPercent, and total to customer
+***********************************************************************************************
+
+***********************************************************************************************
+2. Write an algorithm that will enable the user to enter two integer values. The algorithm should then display the sum and product of the two values entered. 
+
+Solution:
+Initialise integer1 and integer2 to user input
+Prompt user to enter values for integer1 and integer2
+Calculate sum of integers
+Display sum of integers
+sum = integer1 + integer2
+Calculate product of integers
+product = integer1 + integer2
+Display product of integers
+***********************************************************************************************
+
+***********************************************************************************************
+3. Write an algorithm that has two integer constants num1 and num2 having the values 10 and 3 respectively. The algorithm should then display the difference and the remainder of the two constants. You are to ensure that num1 occurs first in the evaluation sequence.
+
+Solution:
+declare constant num1 and initialise to 10
+declare constant num2 and initialise to 3
+declare variable difference
+calulate difference and store in difference
+difference = num1 - num2
+print difference
+declare variable remainder
+calculate remainder
+remainder = num1 % num2 
+print remainder
+ 
+***********************************************************************************************
+
+***********************************************************************************************
+4. Write an algorithm that has floating point constants num1 and num2 having the values 10 and 3 respectively. The algorithm should then display the quotient of the two constants. You are to ensure that num1 occurs first in the evaluation sequence. 
+
+Solution:
+Solution:
+Declare float constant num1 and assigned value 10
+Declare float constant num1 and assigned value 3
+Declare quotient
+Quotient = num1/num2
+Print quotient 
+
+***********************************************************************************************
+
+***********************************************************************************************
+5. Write an algorithm that will accept 3 numbers from the user and tell the largest of the 3.
+
+Solution:
+Declare integer values num1, num2, num3
+Prompt user to enter values for num1, num2, num3
+Declare largest
+Largest = 
+If num1 > num2
+
+***********************************************************************************************
+
+
+***********************************************************************************************
+6. Write an algorithm that will accept a value in kg and convert it to pounds. Please note that 1 kg is equivalent to 2.2 pounds. 
+***********************************************************************************************
+
+***********************************************************************************************
+7. Write an algorithm that will accept a value in pounds and will convert it to kg. 
+***********************************************************************************************
+
+***********************************************************************************************
+8. Write an algorithm that will accept a value in inches and coverts it to feet and inches. (12 inches is equivalent to 1 foot) 
+***********************************************************************************************
+
+***********************************************************************************************
+9. Modify the algorithm at question 6 to allow for the continuous conversion input until the user decides when to stop.
+***********************************************************************************************
+
+***********************************************************************************************
+10. Modify the algorithm at question 8 to allow the user to input and convert 10 numbers.
+***********************************************************************************************
+
+***********************************************************************************************
+11. 9.	Write an algorithm to prepare a monthly bank statement. The input will contain the account number, old balance, total monthly deposit amount, and total monthly withdrawal amount. The statement will contain the account number, old balance, and new balance. The new balance is computed by adding the total monthly deposit amount to, and subtracting the total monthly withdrawal amount from, the old balance. If the new balance is less than $100.00, then a $5.00 service fee will be subtracted from the new balance to determine the correct new balance. Process the monthly statements for 20 customers.
+***********************************************************************************************
